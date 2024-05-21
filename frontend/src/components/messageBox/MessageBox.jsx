@@ -27,7 +27,7 @@ function RenderPage() {
 	return (
 		<div className="flex items-center justify-center w-full h-full">
 			<div className="flex flex-col items-center text-lg md:text-2xl font-semibold text-gray-800 ">
-				<p>Wlcome to the chat room</p>
+				<p>Wlcome to <span className="text-3xl text-blue-600 text-bold">ChatterBox</span></p>
 				<p className="text-center">Keep chatting!</p>
 				<span>
 					<LuMessagesSquare  className="text-3xl md:text-6xl text-center mt-4 animate-pulse"/>

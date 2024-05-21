@@ -18,11 +18,6 @@ app.use("/api/auth", authRoutes);
 app.use("/api/message", messageRoutes);
 app.use("/api/users", userRoute)
 
-// app.get("/", (req, res) => {
-// 	res.send("server is ready");
-// });
-
-
 app.listen(PORT, () => {
 	connectToMongoDB();
 	console.log(`Server running on port ${PORT}`);
