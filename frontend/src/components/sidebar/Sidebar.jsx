@@ -5,7 +5,7 @@ import Logout from './Logout'
 
 function Sidebar() {
   return (
-    <div className='border-r border-slate-900 p-4 flex flex-col'>
+    <div className='border-r border-slate-900 p-4 flex flex-col bg-gray-100'>
         <SearchBar />
         <div className='divider px-3'></div>
         <Conversations />

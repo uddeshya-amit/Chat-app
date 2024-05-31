@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import useLogin from "../../hooks/useLogin";
+import toast from "react-hot-toast";
 
 function Login() {
 	const [username, setUsername] = useState("");
@@ -8,7 +9,7 @@ function Login() {
 	const { loading, login } = useLogin();
 	const handleLogin = async (e) => {
 		e.preventDefault();
-		await login(username, password);
+		await login(username, password)
 	};
 
 	return (

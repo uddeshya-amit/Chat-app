@@ -21,3 +21,9 @@
 	background: rgb(105, 105, 105);
 	cursor: pointer;
 }
+.background{
+	background-image: url(bg.png);
+	background-size: cover;
+	
+
+}

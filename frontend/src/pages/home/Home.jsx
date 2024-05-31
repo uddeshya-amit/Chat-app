@@ -4,7 +4,7 @@ import MessageBox from "../../components/messageBox/MessageBox";
 
 function Home() {
 	return (
-		<div className="flex sm:h-[450px] md:h-[450px] rounded-lg overflow-hidden bg bg-gray-100">
+		<div className="flex h-3/4 w-2/3 rounded-lg overflow-hidden bg bg-gray-100">
 			<Sidebar />
 			<MessageBox />
 		</div>
